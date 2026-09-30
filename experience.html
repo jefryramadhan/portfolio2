@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jefry Ramadhan | Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href="index.html">Jefry Ramadhan</a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html#about">About</a></li>
+                <li><a href="experience.html#experience">Experience</a></li>
+                <li><a href="projects.html#projects">Projects</a></li>
+                <li><a href="contact.html#contact">Contact</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <a href="index.html">Jefry Ramadhan</a>
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="projects.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="contact.html#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+
+        <div class="experience-details-container">
+            <div class="about-containers experience-table-wrapper">
+                <div class="table-container details-container">
+                    <table class="skills-table">
+                        <colgroup>
+                            <col class="col-category">
+                            <col class="col-skill">
+                            <col class="col-proficiency">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Skill / Tool</th>
+                                <th>Proficiency</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3" class="category-cell">Data Analyst Tools</td>
+                                <td>Excel</td>
+                                <td>Experienced</td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>Experienced</td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3" class="category-cell">Visualization Tools</td>
+                                <td>Excel Visualization</td>
+                                <td>Experienced</td>
+                            </tr>
+                            <tr>
+                                <td>Tableau</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td>Looker/Data Studio</td>
+                                <td>Basic</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='projects.html#projects'">
+    </section>
+
+    <footer>
+        <hr class="footer-divider">
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html#about">About</a></li>
+                    <li><a href="experience.html#experience">Experience</a></li>
+                    <li><a href="projects.html#projects">Projects</a></li>
+                    <li><a href="contact.html#contact">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2026 Jefry Ramadhan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
